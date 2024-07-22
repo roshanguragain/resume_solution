@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registrations</title>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <h1>User Registration</h1>
+    <form action="" method="" enctype="">
+      <p>
+        <label for="User Name">User Name:</label>
+        <input type="text" required />
+      </p>
+      <p>
+        <label for="Email">Email:</label>
+        <input type="email" required />
+      </p>
+      <p>
+        <label for="Phone no.">Phone No.:</label>
+        <input type="number" required />
+      </p>
+      <p>
+        <label for="Phone no.">Password:</label>
+        <input type="password" required />
+      </p>
+      <p>
+        <label for="Phone no.">Linked It:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label for="Phone no.">Dob:</label>
+        <input type="date" />
+      </p>
+      <p>
+        <label for="">Message</label><br />
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+      </p>
+      <!-- File uploads -->
+      <p>
+        <label for="">Upload file</label>
+        <input type="file" multiple />
+      </p>
+      <!-- Radio Button -->
+      <p>
+        <label for="">Gender</label>
+        <input name="gender" type="radio" />
+        <label>Male</label>
+        <input name="gender" type="radio" />
+        <label>Females</label>
+        <input name="gender" type="radio" />
+        <label>N/A</label>
+      </p>
+
+      <!-- Checkbox -->
+
+      <p>
+        <label for="">What do you want to learn ?</label><br />
+        <input type="checkbox" />
+        <label>Java</label><br />
+        <input type="checkbox" />
+        <label>HTML</label><br />
+        <input type="checkbox" />
+        <label>CSS</label>
+      </p>
+      <br />
+      <p>
+        <input type="checkbox" />
+        <label for="">I have accepted T&c's</label>
+      </p>
+
+      <!-- Drop dowm select -->
+
+      <p>
+        <label for="">Fruit Lists</label>
+        <select name="" id="" multiple>
+          <option>--Select--</option>
+          <option>Apple</option>
+          <option>Mango</option>
+          <option>Pineapple</option>
+          <option>Guava</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Fruit & Vegies Lists</label>
+        <select name="" id="">
+          <optgroup label="Fruits">
+            <option>--Select--</option>
+            <option>Apple</option>
+            <option>Mango</option>
+            <option>Pineapple</option>
+            <option>Guava</option>
+          </optgroup>
+          <optgroup label="Veggies">
+            <option>--Select--</option>
+            <option>Potato</option>
+            <option>Tomatoes</option>
+            <option>Ginger</option>
+            <option>Garlic</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <!-- Datalist -->
+      <p>
+        <label>Fruites and vegies</label>
+        <input type="text" list="list" />
+        <datalist id="list">
+          <option>--Select--</option>
+          <option>Apple</option>
+          <option>Mango</option>
+          <option>Pineapple</option>
+          <option>Guava</option>
+        </datalist>
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
